@@ -1,0 +1,1 @@
+/home/schmidh/.config/blender/4.3/scripts/addons/modules/easybpy.py

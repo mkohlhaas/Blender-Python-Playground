@@ -1,0 +1,22 @@
+version = 1
+requires-python = ">=3.13"
+
+[[package]]
+name = "blender-python-playground"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "fake-bpy-module" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "fake-bpy-module", specifier = ">=20250104" }]
+
+[[package]]
+name = "fake-bpy-module"
+version = "20250104"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e6/8e/a7d7743ca25fd143ec113ff5581030227079f55e91d8be0f92eacfc5e3da/fake_bpy_module-20250104.tar.gz", hash = "sha256:c882cf5da412f9bd70b478828033e9118f4750043ab319de4653d05ba7748f5d", size = 942096 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e8/39/579cb0d00167d70b7b7699893d8196430cad0a2742bb1f2aeb1ac02482c6/fake_bpy_module-20250104-py3-none-any.whl", hash = "sha256:1f0d4e357278ab83c1880c07a0c15ba0f7b10afcc837a249304f30f66ea3c511", size = 1064416 },
+]
